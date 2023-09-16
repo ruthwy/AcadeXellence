@@ -1,152 +1,153 @@
+/* Header and Footer */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  /* Situate the background behind the content */
 
-/* Container for the whole page */
+    background-image: url('images/bgimg.jpg');
+    background-size: cover;
+
+    /* Make the background image lighter */
+    filter: brightness(1);
+}
+
+
+.head header {
+    color: #333333; /* Dark Grey */
+    text-shadow: 2px 2px 4px #5d5858; /* Text Shadow */
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px,;  /* Increase padding to make them bigger */
+    font-family: 'Monotype Corsiva', cursive;  /* Custom font */
+    font-size: 50px;  /* Large font size */
+    height: 100px;  /* Increased height */
+    flex-wrap: wrap;
+}
+
+.header {
+    font-family: 'Monotype Corsiva', cursive;
+    font-size: 50px;
+    height: 100px;
+    padding: 20px;
+}
+
+/* Footer */
+.foot footer {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 45px;
+    padding: 20px;  
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* PAGE CONTAINER */
 .page-container {
     display: flex;
     flex-direction: column;
     height: 100vh;  /* Full viewport height */
 }
 
-/* Main content container */
+/* MAIN CONTAINER */
 .main-container {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;  /* Horizontal layout */
     flex: 1;  /* Take up all available space */
 }
 
 /* Left Navbar */
 .left-navbar {
-    width: 200px;  /* Fixed width */
-    background: #333;
+    width: 300px;  /* Fixed width */
+    background-color: #528552;
     color: white;
     flex-shrink: 0; /* Don't allow it to shrink */
-}
-
-/* Course Boxes */
-.course-box {
-    flex: 1;  /* Take remaining space */
     display: flex;
-    flex-wrap: wrap;  /* Wrap onto next line if necessary */
-    gap: 20px;  /* Spacing between boxes */
+    flex-direction: column;
+    justify-content: space-between;  /* Evenly space buttons */
+    height: 100%;  /* Take up all available space */
+    border-radius: 20px;
 }
 
-.course-box > div {
-    width: calc(33.33% - 20px);  /* Three boxes per row, accounting for gap */
-}
-
-/* Chatbox */
-.chatbox {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .left-navbar {
-        width: 100%;
-    }
-    .course-box > div {
-        width: 100%;
-    }
-}
-
-/* Stylish Navigation Buttons in Left Navbar */
+/* Left Navbar */
 .left-navbar a {
-    display: block;
+    justify-content: center;
+    display: flex;
     padding: 15px;
     text-align: center;
+    align-content: center;
     text-decoration: none;
     color: white;
     border-bottom: 1px solid #444;
-    border-radius: 12px;  /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Box shadow */
-    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
 }
 
 .left-navbar a:hover {
     background-color: #555;
 }
 
-/* General Styles */
-
-/* Content for Desktop View */
-.content {
-    display: flex;
-    flex-direction: row;  /* Items next to each other */
-    flex-wrap: wrap;  /* Wrap onto next line if necessary */
-    gap: 70px;  /* Increased spacing between boxes */
-    justify-content: center;  /* Center the boxes horizontally */
-    margin-left: 40px;  /* Space between navbar and course boxes */
+.nav-button {
+    flex-grow: 1;  /* Allow buttons to grow to fill space */
+    margin: 5px;  /* Add a little margin for separation */
+    padding: 10px;  /* Add padding for better spacing */
+    background-color: darkslategrey;
 }
 
-.course-box {
-    width: 250px;  /* Fixed width for better look */
+/* CONTENT */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  /* Center vertically */
+    height: 100%;  /* Take full available height */
+}
+
+.course-box a{
+    color: #2f1401;
+    width: 300px;  /* Fixed width for better look */
     height: 150px;  /* Fixed height */
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-radius: 16px;  /* Increased rounded corners for a modern look */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  /* Professional box shadow for elevated look */
     display: flex;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition for hover effect */
+    margin: 2vw;
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: "Lexend Deca";
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px
 }
 
-.course-box:hover {
+
+
+.course-box a:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Increased shadow on hover for interactive feel */
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .main-container {
-        flex-direction: column;  /* Stack items vertically */
-    }
-    .left-navbar {
-        width: 100%;
-        box-sizing: border-box;  /* To ensure padding doesn't affect width */
-    }
-    .content {
-        align-items: center;  /* Center items */
-        margin-left: 0;  /* Remove extra margin */
-    }
-    .course-box {
-        margin-top: 50px;  /* Space between navbar and course boxes */
-    }
-}
 
-/* Header and Footer */
-.head header {
-    text-align: center;
-    padding: 20px,;  /* Increase padding to make them bigger */
-}
-.foot footer {
-    padding: 20px;  /* Increase padding to make them bigger */
-}
-
-.head header {
-    font-family: 'Monotype Corsiva', cursive;  /* Custom font */
-    font-size: 50px;  /* Large font size */
-}
-
-/* Chat Box */
-.chat-box {
-    position: fixed;  /* Fixed position */
-    bottom: 60px;  /* Above the footer */
-    right: 20px;  /* Right side of the page */
-    z-index: 1000;  /* Above other elements */
-}
-
-/* Universal Chat Box Positioning */
-.chat-box {
-    position: fixed;  /* Fixed position */
-    bottom: 60px;  /* Above the footer */
-    right: 20px;  /* Right side of the page */
-    z-index: 1000;  /* Above other elements */
-}
-/* Magical Chat Icon Styling */
+/* CHAT ICON */
 .chat-icon {
     position: fixed;  /* Fixed position */
     bottom: 60px;  /* Above the footer */
@@ -158,53 +159,174 @@
 }
 
 .chat-icon:hover {
-    transform: scale(1.1);  /* Slightly scale up on hover */
+    transform: scale(1.2);  /* Slightly scale up on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Increased shadow on hover for interactive feel */
 }
-/* Center Course Boxes Vertically in Desktop View */
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;  /* Center vertically */
-    height: 100%;  /* Take full available height */
-}
 
-/* Enlarge Header Area */
-.header {
-    height: 100px;  /* Increased height */
-    padding: 20px;  /* Added padding for more space */
-}
 
-/* Enlarge Footer Area */
-.footer {
-    height: 100px;  /* Increased height */
-    padding: 20px;  /* Added padding for more space */
-}
+/* RESPONSIVE */
+@media only screen and (max-width: 1023px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
 
-/* Fix Gap Between <hr> and Nav Bar */
-.nav-bar {
-    margin-top: 0;  /* Remove top margin to eliminate gap */
-    padding-top: 0;  /* Remove top padding to eliminate gap */
-}
-/* Refine Nav Bar Buttons */
-.left-navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;  /* Evenly space buttons */
-    height: 100%;  /* Take up all available space */
-}
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
 
-.nav-button {
-    flex-grow: 1;  /* Allow buttons to grow to fill space */
-    margin: 5px;  /* Add a little margin for separation */
-    padding: 10px;  /* Add padding for better spacing */
+        /* Make the background image lighter */
+        filter: brightness(1);
+    }
+    .page-container {
+        height: auto;  /* Let it adjust */
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+        flex-wrap: wrap;
+    }
 }
 
 
-.header {
-    font-family: 'Monotype Corsiva', cursive;
-    font-size: 50px;
-    height: 100px;
-    padding: 20px;
+@media (max-width: 768px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+
+        /* Make the background image lighter */
+        filter: brightness(1);
+    }
+    .main-container {
+        flex-direction: column;  /* Stack items vertically */
+    }
+    .left-navbar {
+        width: 100%;
+        box-sizing: border-box;  /* To ensure padding doesn't affect width */
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+    }
+    .course-box {
+        margin-top: 8vh;  /* Space between navbar and course boxes */
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .page-container {
+        height: auto;  /* Let it adjust */
+    }
+    .left-navbar {
+        width: 100%;
+    }
+    .footer {
+        position: static;
+        bottom: auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+    }
+}
+@media only screen and (max-width: 320px) {
+    .page-container {
+        height: auto;  /* Let it adjust */
+    }
+    .left-navbar {
+        width: 100%;
+    }
+    .footer {
+        position: static;
+        bottom: auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .left-navbar {
+        width: 100%;
+    }
+    .footer {
+        position: static;
+        bottom: auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+
+        /* Make the background image lighter */
+        filter: brightness(1);
+    }
+    .left-navbar {
+        width: 300px;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  /* Center items */
+        margin-left: 0;  /* Remove extra margin */
+        flex-wrap: wrap;
+
+    }
+}
+
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
