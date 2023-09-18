@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>AcadeXellence</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="sipage-container">
+        <!-- HEADER-->
+        <div class="head">
+            <header>AcadeXellence</header>
+            <hr/>
+        </div>
+        <!--MAIN CONTENT = NO HEADER ND FOOTER-->
+        <div class="simain-container">
+
+        <!--LEFTNAVBAR-->
+        <div class="left-navbar">
+            <a class="nav-button" href="About.html">Home/About</a>
+            <a class="nav-button" href="student.html">Dashboard</a>
+            <a class="nav-button" href="courses.html">Courses</a>
+            <a class="nav-button" href="calendar.html">Calendar</a>
+            <a class="nav-button" href="Exams.html">Exams</a>
+            <a class="nav-button" href="Timetable.html">TimeTable</a>
+            <a class="nav-button" href="Discussions.html">Discussions</a>
+            <a class="nav-button" href="feedback.html">Feedback</a>
+        </div>
+        <!--EDIT USER INFO-->
+        <div class="container">
+        <!-- Place all the content in this div -->
+            
+                <h2>MY INFORMATION</h2>
+                <form id="userProfileForm">
+                <fieldset>
+                    <legend>PERSONAL INFORMATION:</legend>
+                        <label for="firstName">First Name:</label>
+                        <input id="firstName" name="firstName" readonly="" value="SAI RUTHWIK" type="text"/><br/><br/>
+
+                        <label for="lastName">Last Name:</label>
+                        <input id="lastName" name="lastName" readonly="" value="REDDI" type="text"/><br/><br/>
+
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" readonly="" value="sxr3538@mavs.uta.edu" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/><br/><br/>
+
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input id="phoneNumber" name="phoneNumber" value="6823746298" type="tel" pattern="[0-9]{10}"/><br/><br/>
+
+                        <label for="dob">Date of Birth:</label>
+                        <input id="dob" name="dob" type="date" pattern="\d{4}-\d{2}-\d{2}" /><br/><br/>
+
+                        <label>Gender:</label><br/>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label class="gender-label" for="male">Male</label><br>
+
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label class="gender-label" for="female">Female</label><br/>
+
+                        <input type="radio" id="other" name="gender" value="Other">
+                        <label class="gender-label" for="other">Other</label>
+                        <br/><br/><br/>
+
+                        <label for="address">Address:</label>
+                        <textarea cols="50" id="address" name="address" rows="4"></textarea><br/><br/>
+
+                        <label for="emergencyContact">Emergency Contact:</label>
+                        <input id="emergencyContact" name="emergencyContact" type="tel" pattern="[0-9]{10}"/><br/><br/>
+                </fieldset>
+                <br><br><br>
+                <fieldset>
+                    <legend>ACADEMIC INFORMATION:</legend>
+                    <label for="studentId">Student ID:</label>
+                    <input id="studentId" name="studentId" readonly="" value="102063535" type="text"/><br/><br/>
+                    <label for="currentSemester">Current Semester:</label>
+                    <input id="currentSemester" name="currentSemester" readonly="" value="Third Semester" type="text"/><br/><br/>
+                    <label for="currentGPA">Current GPA:</label>
+                    <input id="currentGPA" name="currentGPA" readonly="" value="3.67" type="text"/><br/><br/>
+                    <label for="enrolledCourses">Enrolled Courses:</label>
+                    <div class="readonly-list" id="enrolledCourses">
+                                        Course-1<br/>
+                                        Course-2<br/>
+                                        Course-3<br/>
+                                        Course-4<br/>
+                                        Course-5<br/>
+                                        Course-6<br/>
+                    </div>
+                    <br><br>
+                    </br></br>
+                </fieldset>
+                <br><br><br>
+                <fieldset>
+                    <legend>INTERETS & SKILLS:</legend>
+                    <label for="skills">Skills:</label>
+                    <input id="skills" name="skills" placeholder="e.g., Python, Machine Learning" type="text"/><br><br>
+                    <label for="interests">Interests:</label>
+                    <textarea cols="50" id="interests" name="interests" rows="6"></textarea><br><br>
+                    </br></br></br></br>
+                </fieldset>
+                </br></br>
+                <button type="submit">Save Profile</button>
+                </form>
+                <script>
+                            // Placeholder function to handle form submission
+                            function handleFormSubmit(event) {
+                                event.preventDefault();
+                                alert("Functionality will be implemented soon.");
+                            }
+                            
+                            // Attach the function to form submit
+                            document.getElementById('userProfileForm').addEventListener('submit', handleFormSubmit);
+                        </script>
+            
+
+        </div>
+        </div>
+        <!--CHAT-->
+        <div class="chat-icon">Chat?</div>
+        <!--FOOTER-->
+        <div class="foot">
+            <hr/>
+        <footer>Copyright © 2023 AcadeXellence. All rights reserved</footer>
+        </div>
+    </div>
+</body>
+</html>
