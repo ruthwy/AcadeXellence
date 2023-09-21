@@ -71,6 +71,7 @@ body::before {
 
 /* Left Navbar */
 .left-navbar {
+    height: fit-content;
     width: 300px;  /* Fixed width */
     background-color: #528552;
     color: white;
@@ -86,7 +87,7 @@ body::before {
 .left-navbar a {
     justify-content: center;
     display: flex;
-    padding: 15px;
+    padding: 18px;
     text-align: center;
     align-content: center;
     text-decoration: none;
@@ -312,6 +313,7 @@ body::before {
         filter: brightness(1);
     }
     .left-navbar {
+        height: fit-content;
         width: 300px;
     }
     .footer {
@@ -423,7 +425,7 @@ button[type="submit"]:hover {
   }
 
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     body::before {
         content: "";
         position: fixed;
@@ -455,5 +457,225 @@ button[type="submit"]:hover {
         justify-content: center;
         align-items: center;
 
+    }
+}
+/* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+/* studentinfo.html STYLES */
+/* New professional styles for Exams and Assignments */
+.sepage-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#exams, #assignments {
+    max-height: 400px;  /* Maximum height */
+    overflow-y: auto;   /* Enable vertical scrollbar */
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#exams::-webkit-scrollbar, #assignments::-webkit-scrollbar {
+    width: 8px;
+}
+
+#exams::-webkit-scrollbar-thumb, #assignments::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);  /* Transparent black */
+}
+
+/* Button Hover Effect with Transition */
+.button-container button {
+    background-color: #4c61af; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+    font-family: "Lexend Deca";
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.button-container {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #ffffff4a;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+/* Active Button Highlight */
+.button-container button.active {
+    background-color: #FFD700;  /* Gold */
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+/* Exams and Assignments Sections with Shadow and Font */
+.exam-detail, .assignment-detail {
+    min-width: 650px;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+}
+
+.exam-detail ul, .assignment-detail ul{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.exam-detail li, .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: 1px solid black;
+    
+}
+.exam-detail li:last-child , .assignment-detail li:last-child  {
+    border-right: none;
+}
+
+.exam-detail:hover, .assignment-detail:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;  /* Increased shadow on hover for interactive feel */
+}
+
+/* Text Styles with Font */
+.exam-detail h3, .assignment-detail h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.exam-detail a, .assignment-detail a {
+    font-family: "Lexend Deca";
+    color: #000;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.secontent{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.semain-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+
+        /* Make the background image lighter */
+        filter: brightness(1);
+    }
+    .semain-container {
+        row-gap: 35px;
+        flex-direction: column;  /* Stack items vertically */
+    }
+    .left-navbar {
+        width: 100%;
+        box-sizing: border-box;  /* To ensure padding doesn't affect width */
+    }
+    .secontent{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #exams{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1023px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+
+        /* Make the background image lighter */
+        filter: brightness(1);
+    }
+    .semain-container {
+        row-gap: 35px;
+        flex-direction: row;  /* Stack items vertically */
+    }
+    .left-navbar {
+        box-sizing: border-box;  /* To ensure padding doesn't affect width */
+    }
+    .secontent{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #exams{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        justify-content: center;
     }
 }

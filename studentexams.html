@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>AcadeXellence</title>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap">
+</head>
+
+<body>
+        <div class="sepage-container">
+            <!-- HEADER-->
+            <div class="head">
+                <header>AcadeXellence</header>
+                <hr/>
+            </div>
+            <!--MAIN CONTENT = NO HEADER ND FOOTER-->
+            <div class="semain-container">
+                <!--LEFTNAVBAR-->
+                <div class="left-navbar">
+                    <a class="nav-button" href="student.html">Dashboard</a>
+                    <a class="nav-button" href="courses.html">Courses</a>
+                    <a class="nav-button" href="studentinfo.html">My Info</a>
+                    <a class="nav-button" href="studentexams.html">Exams</a>
+                    <a class="nav-button" href="Timetable.html">TimeTable</a>
+                    <a class="nav-button" href="Discussions.html">Chat</a>
+                    <a class="nav-button" href="feedback.html">Feedback</a>
+                </div>
+                <!-- Can View List of Exams and Assignemtns-->
+                <div class="secontent">
+                    <!-- Implement here-->
+                    <div class="button-container">
+                        <button id="examsButton" onclick="toggleVisibility('exams', 'assignments')">Exams</button>
+                        <button id="assignmentsButton" onclick="toggleVisibility('assignments', 'exams')">Assignments</button>
+                    </div>
+                        
+                        <!-- Content for Exams and Assignments -->
+                    
+                    <div id="exams" style="display:flex;">
+                        <h2>Upcoming Exams</h2>
+                        <div class="exam-detail"><a href="#">
+                            <h3>Math Exam</h3>
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 09/25/2023</li>
+                            <li>Duration: 2 Hours</li>
+                            <li>Maximum Points: 100</li>
+                            </ul>
+                        </a>
+                        </div>
+                        <div class="exam-detail">
+                            <h3>Physics Exam</h3><a href="#">
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 10/10/2023</li>
+                            <li>Duration: 1.5 Hours</li>
+                            <li>Maximum Points: 50</li>
+                            </ul>
+                        </a>
+                        </div>
+                        <div class="exam-detail">
+                            <h3>Physics Exam</h3><a href="#">
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 10/10/2023</li>
+                            <li>Duration: 1.5 Hours</li>
+                            <li>Maximum Points: 50</li>
+                            </ul>
+                        </a>
+                        </div>
+                        <div class="exam-detail">
+                            <h3>Physics Exam</h3><a href="#">
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 10/10/2023</li>
+                            <li>Duration: 1.5 Hours</li>
+                            <li>Maximum Points: 50</li>
+                            </ul>
+                        </a>
+                        </div>
+                        <div class="exam-detail">
+                            <h3>Physics Exam</h3><a href="#">
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 10/10/2023</li>
+                            <li>Duration: 1.5 Hours</li>
+                            <li>Maximum Points: 50</li>
+                            </ul>
+                        </a>
+                        </div>
+                        <div class="exam-detail">
+                            <h3>Physics Exam</h3><a href="#">
+                            <ul>
+                            <li>Course: XYZABCD</li>
+                            <li>Date: 10/10/2023</li>
+                            <li>Duration: 1.5 Hours</li>
+                            <li>Maximum Points: 50</li>
+                            </ul>
+                        </a>
+                        </div>
+                    </div>
+                        
+                        
+                        
+                        <!-- Updated Content for Assignments -->
+                        <div id="assignments" style="display:none;">
+                            <h2>Due Assignments</h2><br><br>
+                            <div class="assignment-detail">
+                                <h3>Database Assignment</h3>
+                                <ul>
+                                <li>Due Date: 18th September</li>
+                                <li>Maximum Points: 50</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-detail">
+                                <h3>Cloud Computing Assignment</h3>
+                                <ul>
+                                <li>Due Date: 20th September</li>
+                                <li>Maximum Points: 60</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                </div>
+            </div>
+            <!--CHAT-->
+            <div class="chat-icon">Chat?</div>
+            <!--FOOTER-->
+            <div class="foot">
+                <footer>Copyright © 2023 AcadeXellence. All rights reserved</footer>
+            </div>
+            
+        </div>
+</body>
+
+</html>
