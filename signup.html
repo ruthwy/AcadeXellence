@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcadeXellence Login</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bgimg.jpg'); 
+ background-size: cover; /* To cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+        }
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.login-button, .signup-button, .contact-button, .service-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.login-button:hover, .signup-button:hover, .contact-button:hover, .service-button:hover {
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-2px);
+}
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+    text-align: right;
+}
+        .container {
+            width: 40%;
+            margin: auto;
+             background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 12px;
+        }
+.container:hover{
+background-color: #6CE8EF ; 
+}
+
+        h2,h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            display: block;
+            width: 90%;  /* Reduced width */
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input[type="text"]:hover, input[type="password"]:hover {
+            border-color: #007BFF;
+        }
+
+        .remember-me {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        .remember-me label {
+            margin-left: 10px;
+        }
+
+        .forgot-password {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        button.signin-button {
+            display: block;
+            margin: 20px auto;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        button.signin-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <h1>AcadeXellence</h1>
+        <div class="header-buttons">
+            <button class="login-button">Login</button>
+            <button class="signup-button">Signup</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Main Heading -->
+         
+        <h2>Login</h2>
+        
+        <!-- Username -->
+        <p>Username</p>
+        <input type="text" placeholder="Enter your username">
+
+        <!-- Password -->
+        <p>Password</p>
+        <input type="password" placeholder="Enter your password">
+
+        <!-- Remember Me Checkbox -->
+        <div class="remember-me">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+        </div>
+
+        <!-- Forgot Password -->
+        <p class="forgot-password">Forgot password?</p>
+
+        <!-- Sign In Button -->
+        <button class="signin-button">Sign In</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Copyrights @2023 AcadeXellence. All rights reserved.
+    </footer>
+</body>
+</html>

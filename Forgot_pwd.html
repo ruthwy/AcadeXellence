@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcadeXellence Forgot Password</title>
+    <style>
+        /* Global Styles */
+       /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgimg.jpg');  /* Setting the image as background */
+    background-size: cover; /* To cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.header-buttons, .footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+.container {
+    width: 40%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 12px;
+}
+
+
+/* ... rest of your styles ... */
+
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        input[type="text"], input[type="email"] {
+            display: block;
+            width: 90%;  /* Reduced width */
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input[type="text"]:hover, input[type="email"]:hover {
+            border-color: #007BFF;
+        }
+
+        button.reset-button, button.resend-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: background-image 0.3s, background-position 0.3s; /* Added transition */
+    background-image: linear-gradient(90deg, #007BFF, #0056b3); /* Initial gradient background */
+    background-size: 200% 100%; /* Initial background size */
+    background-position: 100% 0; /* Initial background position (to the right) */
+}
+
+button.reset-button:hover, button.resend-button:hover {
+    background-position: 0 0; /* Change background position on hover (to the left) */
+}
+
+button.reset-button:focus, button.resend-button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+
+        .login-button, .signup-button, .contact-button, .service-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.login-button:hover, .signup-button:hover, .contact-button:hover, .service-button:hover {
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-2px);
+}
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+    text-align: right;
+}
+    </style>
+</head>
+<body>
+<header>
+        <h1>AcadeXellence</h1>
+        <div class="header-buttons">
+            <button class="login-button">Login</button>
+            <button class="signup-button">Signup</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Main Heading -->
+        <h2>Forgot Password</h2>
+        
+        <!-- Username -->
+        <p>Email</p>
+        <input type="text" placeholder="Enter your email for verication">
+
+        <!-- Email -->
+        <p>One Time code</p>
+        <input type="email" placeholder="Enter your code">
+
+        <!-- Reset Password Button -->
+        <button class="reset-button">Reset Password</button>
+         <button class="resend-button">Resend Code</button>
+    </div>
+
+    <!-- Footer -->
+     <footer>
+        <div class="footer-text">
+            Copyrights Reserved
+            <button class="contact-button">Contact Us</button>
+            <button class="service-button">Services</button>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="cfstyles.css">
+</head>
+<body>
+     <header>
+        <h1>AcadeXellence</h1>
+        <div class="header-buttons">
+            <button class="login-button">Login</button>
+            <button class="signup-button">Signup</button>
+        </div>
+    </header>
+    
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, please feel free to contact us using the information below:</p>
+        <ul>
+            <li>Email: <a href="mailto:ruthwik2000@acadexellence.com">ruthwik2000@acadexellence.com</a></li>
+            <li>Phone: <a href="tel:+16823731067">+1 (682) 373-1048</a></li>
+            <li>Address: 300  West First Street, Arlington, Texas 76019 ,USA</li>
+        </ul>
+    </section>
+    
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+   <footer>
+        <div class="footer-text">
+            Copyrights @2023 AcadeXellence. All rights reserved.
+            <button class="contact-button">Contact Us</button>
+            <button class="service-button">Services</button>
+        </div>
+    </footer>
+</body>
+</html>

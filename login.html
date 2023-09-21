@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcadeXellence Sign Up</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bgimg.jpg'); 
+ background-size: cover; /* To cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+        }
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.header-buttons, .footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+        .container {
+            width: 40%;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 12px;
+        }
+.container:hover{
+background-color: #6CE8EF ; 
+}
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+.signup1-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+        input[type="text"], input[type="email"], input[type="password"], select {
+            display: block;
+            width: 90%;  /* Reduced width */
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, select:hover {
+            border-color: #007BFF;
+        }
+
+        select {
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        
+        .account-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .account-info a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .account-info a:hover {
+            color: #0056b3;
+        }
+
+        /* Footer Styles */
+         .login-button, .signup-button, .contact-button, .service-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.login-button:hover, .signup-button:hover, .contact-button:hover, .service-button:hover , .signup1-button:hover{
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-2px);
+}
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+    text-align: right;
+}
+    </style>
+</head>
+<body>
+<header>
+        <h1>AcadeXellence</h1>
+        <div class="header-buttons">
+            <button class="login-button">Login</button>
+            <button class="signup-button">Signup</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Main Heading -->
+        <h2>Signup your Account</h2>
+        <p></p>
+        
+        <!-- Username -->
+        <p>Username</p>
+        <input type="text" placeholder="Enter your username">
+
+        <!-- Email -->
+        <p>Email</p>
+        <input type="email" placeholder="Enter your email">
+
+        <!-- Password -->
+        <p>Password</p>
+        <input type="password" placeholder="Enter your password">
+
+        <!-- Confirm Password -->
+        <p>Confirm Password</p>
+        <input type="password" placeholder="Confirm your password">
+
+        <!-- Role Dropdown -->
+        <p>Role</p>
+        <select>
+            <option value="option1">Student</option>
+            <option value="option2">Instructor</option>
+            <option value="option3">Admin</option>
+            <option value="option4">Quality Assurance Officer</option>
+            <option value="option5">Program Coordinator</option>
+        </select>
+
+        <!-- Sign Up Button -->
+        <button class="signup1-button">Sign Up</button>
+
+        <!-- Account Info -->
+        <div class="account-info">
+            <p>Already have an account?</p>
+            <a href="#">Sign in</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    
+<footer>
+        <div class="footer-text">
+            Copyrights @2023 AcadeXellence. All rights reserved.
+            <button class="contact-button">Contact Us</button>
+            <button class="service-button">Services</button>
+        </div>
+    </footer>
+</body>
+</html>

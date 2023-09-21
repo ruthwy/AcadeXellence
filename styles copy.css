@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+     background-image: url('bgimg.jpg');
+    background-size: cover; /* Adjust the image size to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fix the background image in place */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.header-buttons, .footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button, .signup-button, .contact-button, .service-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.login-button:hover, .signup-button:hover, .contact-button:hover, .service-button:hover {
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+   
+    padding: 20px;
+    
+background-color: transparent;
+}
+.sub-container:hover, .bottom_para:hover, .mid-text-container:hover {
+    background-color: #EFF659 ;
+
+}
+
+.sub-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+background-color: transparent;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    border: 1px solid #ccc; /* Add border */
+}
+.bottom_para  {
+   flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+.left-text {
+    flex-direction: row-reverse;
+}
+
+.left-image, .right-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.right-text {
+    flex: 1;
+}
+
+.gap-between-text-and-separate {
+    margin-top: 30px;
+}
+
+/* ... other CSS rules ... */
+
+large-sub-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(135, 206, 235, 0.8);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #ccc;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 350px;
+}
+
+.left-image-bottom {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center the elements */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ccc;
+    max-width: 20%; /* Limit the width */
+    margin: 0 auto; /* Center it horizontally */
+
+    /* Add these properties to make the image fill its container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 20px;
+    max-width: 600px;
+}
+ .large-sub-container {
+    background-color: rgba(135, 206, 235, 0.8);  /* A light blue with some transparency */
+    border: 1px solid rgba(70, 130, 180, 0.8);  /* A darker blue for the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* A subtle shadow */
+}
+
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+    text-align: right;
+}

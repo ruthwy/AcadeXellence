@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bgimg.jpg'); 
+ background-size: cover; /* To cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+             filter: blur(0); /* Initialize blur to 0 (no blur) */
+    transition: filter 0.3s ease; /* Add a smooth transition for the blur effect */
+            }
+
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.header-buttons, .footer-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* styles.css */
+/* ... other styles ... */
+
+.contact-info, .contact-form {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Added transition for hover effect */
+    
+}
+
+/* Apply the hover effect to both contact-info and contact-form sections */
+.contact-info:hover, .contact-form:hover {
+    transform: translateY(-5px); /* Move the section up slightly on hover */
+ background-color: #6CE8EF ;  /* Semi-transparent white overlay on hover */
+   /* filter: blur(3px);  Add a blur effect to the section on hover */
+}
+
+/* ... other styles ... */
+
+.contact-info h2, .contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.login-button, .signup-button, .contact-button, .service-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.login-button:hover, .signup-button:hover, .contact-button:hover, .service-button:hover , .contact-form button[type="submit"]:hover{
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-2px);
+}
+footer {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+.footer-text {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
