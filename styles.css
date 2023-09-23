@@ -46,6 +46,7 @@ body::before {
     justify-content: center;
     height: 45px;
     padding: 20px;  
+    font-family: "Lexend Deca";
 }
 
 .footer {
@@ -67,6 +68,7 @@ body::before {
     flex-wrap: nowrap;
     flex-direction: row;  /* Horizontal layout */
     flex: 1;  /* Take up all available space */
+    align-items: center;
 }
 
 /* Left Navbar */
@@ -85,6 +87,7 @@ body::before {
 
 /* Left Navbar */
 .left-navbar a {
+    font-family: "Lexend Deca";
     justify-content: center;
     display: flex;
     padding: 18px;
@@ -120,7 +123,7 @@ body::before {
 }
 
 .course-box a{
-    color: #2f1401;
+    color: #000000;
     width: 300px;  /* Fixed width for better look */
     height: 150px;  /* Fixed height */
     padding: 20px;
@@ -140,14 +143,14 @@ body::before {
     font-weight: bolder;
     text-shadow: 1px 1px 2px;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.494);
 }
 
 
 
 .course-box a:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Increased shadow on hover for interactive feel */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.571);  /* Increased shadow on hover for interactive feel */
 }
 
 
@@ -315,6 +318,7 @@ body::before {
     .left-navbar {
         height: fit-content;
         width: 300px;
+        align-self: center;
     }
     .footer {
         position: absolute;
@@ -325,9 +329,9 @@ body::before {
         flex-direction: row;
         justify-content: center;
         align-items: center;  /* Center items */
-        margin-left: 0;  /* Remove extra margin */
+        margin-left: auto;  /* Remove extra margin */
         flex-wrap: wrap;
-
+        margin-right: auto;
     }
 }
 
@@ -345,6 +349,7 @@ fieldset{
     border-radius: 20px;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
+    
 }
 input{
     text-align: center;
@@ -395,9 +400,20 @@ legend, h2{
 }
 
 .container {
+    max-height: 80vh;  /* 70% of the viewport height */
+    overflow-y: auto;
     margin-left: auto;  /* Pushes the container to occupy remaining space */
     margin-right: auto; /* Centers the container */
-    width: 30%;  /* You can adjust this width */
+      /* You can adjust this width */
+}
+
+.container::-webkit-scrollbar {
+    width: 6px; 
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);  /* Transparent black */
+    border-radius: 3px;
 }
 
 button[type="submit"]{
@@ -456,20 +472,28 @@ button[type="submit"]:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
+        max-width: 90%;
+        overflow-y: visible;
+        max-height: none;
     }
+    fieldset {
+          /* Override the min-width */
+        width:auto;  /* Take full width */
+      }
 }
+
+
+
 /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
-/* studentinfo.html STYLES */
+/* studentexams.html STYLES */
 /* New professional styles for Exams and Assignments */
 .sepage-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 #exams, #assignments {
-    max-height: 400px;  /* Maximum height */
+    max-height: 65vh;  /* Maximum height */
     overflow-y: auto;   /* Enable vertical scrollbar */
     position: relative;
     margin-top: 20px;
@@ -536,7 +560,7 @@ button[type="submit"]:hover {
 .exam-detail, .assignment-detail {
     min-width: 650px;
     background-color: #f1f1f175;
-    margin: 30px 0;
+    margin: 20px 0;
     padding: 4px 15px 30px 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -588,13 +612,14 @@ button[type="submit"]:hover {
 }
 
 .secontent{
-    margin-left: 40px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
 .semain-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -610,9 +635,6 @@ button[type="submit"]:hover {
         background-image: url('images/bgimg.jpg');
         background-size: cover;
         background-position: center;
-
-        /* Make the background image lighter */
-        filter: brightness(1);
     }
     .semain-container {
         row-gap: 35px;
@@ -637,9 +659,38 @@ button[type="submit"]:hover {
         flex-wrap:wrap;
         justify-content: center;
     }
+    .exam-detail, .assignment-detail {
+        min-width: 75%;
+        background-color: #f1f1f175;
+        margin: 30px 0;
+        padding: 4px 15px 30px 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        font-family: "Lexend Deca";
+        transition: all 0.3s ease, box-shadow 0.3s ease;
+        column-gap: 10px;
+    }
+    .exam-detail ul, .assignment-detail ul{
+        font-size: small;
+        font-weight: bold;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .exam-detail li, .assignment-detail li {
+        flex: 1;
+        text-align: center;
+        padding: 2px;
+        border-right: none;
+    }
+    
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     body::before {
         content: "";
         position: fixed;
@@ -652,18 +703,89 @@ button[type="submit"]:hover {
         background-image: url('images/bgimg.jpg');
         background-size: cover;
         background-position: center;
-
-        /* Make the background image lighter */
-        filter: brightness(1);
     }
-    .semain-container {
-        row-gap: 35px;
-        flex-direction: row;  /* Stack items vertically */
+    .sepage-container{
+        min-height: 100vh;
+    }
+    .semain-container{
+        flex-grow: 1;
+    }
+    .secontent {
+        margin-left: auto;
+        margin-right: auto;  /* Stack items vertically */
     }
     .left-navbar {
+        height: fit-content; /* To ensure padding doesn't affect width */
+        align-self: center;
+    }
+    .footer {
+        position: absolute;
+        top: 100%;
+        bottom: 0;
+    }
+    
+}
+
+/* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+/* studentfeedback.html STYLES */
+
+#note {
+    font-family: "Lexend Deca";
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sfmain-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sfcontent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback-form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    #note{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sfmain-container {
+        row-gap: 35px;
+        flex-direction: column;  /* Stack items vertically */
+    }
+    .left-navbar {
+        width: 100%;
         box-sizing: border-box;  /* To ensure padding doesn't affect width */
     }
-    .secontent{
+    .sfcontent{
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -672,10 +794,150 @@ button[type="submit"]:hover {
         align-items: center;
     }
 
-    #exams{
-        display: flex;
-        flex-direction: column;
-        flex-wrap:nowrap;
-        justify-content: center;
-    }
+    
 }
+
+@media (min-width: 1024px) {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  /* Situate the background behind the content */
+
+        background-image: url('images/bgimg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .sfpage-container{
+        min-height: 100vh;
+    }
+    .sfmain-container{
+        flex-grow: 1;
+    }
+    .sfcontent {
+        margin-left: auto;
+        margin-right: auto;  /* Stack items vertically */
+    }
+    .left-navbar {
+        height: fit-content; /* To ensure padding doesn't affect width */
+        align-self: center;
+    }
+    .footer {
+        position: absolute;
+        top: 100%;
+        bottom: 0;
+    }
+    
+}/* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+/* studentfeedback.html STYLES */
+.c1main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;  /* Horizontal layout */
+    flex: 1;  /* Take up all available space */
+    align-items: center;
+    row-gap: 10px;
+}
+
+.c1left-navbar {
+    height: fit-content;
+    width: 200px;  /* Fixed width */
+    background-color: #528552;
+    color: white;
+    flex-shrink: 0; /* Don't allow it to shrink */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Evenly space buttons */
+     /* Take up all available space */
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+/* Left Navbar */
+.c1left-navbar a {
+    font-family: "Lexend Deca";
+    justify-content: center;
+    display: flex;
+    padding: 18px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #444;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.c1left-navbar a:hover {
+    background-color: #555;
+}
+
+.c1nav-button {
+    flex-grow: 1;  /* Allow buttons to grow to fill space */
+    margin: 5px;  /* Add a little margin for separation */
+    padding: 10px;  /* Add padding for better spacing */
+    background-color: darkslategrey;
+}
+
+
+.c1right-navbar {
+    height: fit-content;
+    width: 200px;  /* Fixed width */
+    background-color: #527285;
+    color: white;
+    flex-shrink: 0; /* Don't allow it to shrink */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Evenly space buttons */
+      /* Take up all available space */
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+/* Left Navbar */
+.c1right-navbar a {
+    font-family: "Lexend Deca";
+    justify-content: center;
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #444;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.c1right-navbar a:hover {
+    background-color: #555;
+}
+
+.c1nav-button2 {
+    flex-grow: 1;  /* Allow buttons to grow to fill space */
+    margin: 15px;  /* Add a little margin for separation */
+    padding: 5px;  /* Add padding for better spacing */
+    background-color: rgb(47, 53, 79);
+}
+
+.c1content{
+    width :60vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;  /* Adjust the height as needed */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+embed {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }

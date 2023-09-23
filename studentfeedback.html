@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>AcadeXellence</title>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap">
+</head>
+
+<body>
+        <div class="page-container">
+            <!-- HEADER-->
+            <div class="head">
+                <header>AcadeXellence</header>
+                <hr/>
+            </div>
+            <!--MAIN CONTENT = NO HEADER ND FOOTER-->
+            <div class="sfmain-container">
+                <!--LEFTNAVBAR-->
+                <div class="left-navbar">
+                    <a class="nav-button" href="student.html">Dashboard</a>
+                    <a class="nav-button" href="courses.html">Courses</a>
+                    <a class="nav-button" href="studentinfo.html">My Info</a>
+                    <a class="nav-button" href="studentexams.html">Exams</a>
+                    <a class="nav-button" href="Timetable.html">TimeTable</a>
+                    <a class="nav-button" href="Discussions.html">Discussions</a>
+                    <a class="nav-button" href="feedback.html">Feedback</a>
+                </div>
+                <!--COURSE BOXES-->
+                <div class="sfcontent">
+                    <br/>
+                    <p id="note">All the Feedback Forms will be reached to Program Coordinator and Quality Assurance Officer for Program Improvement</p><br/>
+                    <form action="/submit-feedback" class="feedback-form" method="post">
+                        <fieldset>
+                        <legend>Feedback Form</legend>
+                        <label for="name">Your Name:</label>
+                        <input id="name" name="name" readonly="" value="SAI RUTHWIK REDDI"required="" type="text"/>
+                        <br/><br/>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email"  readonly="readonly" value="sxr3538@mavs.uta.edu" required="" type="email"/>
+                        <br/><br/>
+                        <label for="subject">Subject:</label>
+                        <input id="subject" name="subject" required="" type="text"/>
+                        <br/><br/>
+                        <label for="feedback">Feedback:</label>
+                        <textarea id="feedback" name="feedback" required="" rows="10" cols="50"></textarea>
+                        <br/><br/></fieldset><br/><br/>
+                        <button type="submit">Submit</button>
+                        
+                        </form>
+                </div>
+
+            </div>
+            <!--CHAT-->
+            <div class="chat-icon">Chat?</div>
+            <!--FOOTER-->
+            <div class="foot">
+                <footer>Copyright © 2023 AcadeXellence. All rights reserved</footer>
+            </div>
+            
+        </div>
+</body>
+
+</html>
