@@ -1,0 +1,703 @@
+/* Group-14
+Rajpurohit, Ravi (1002079916)
+*/
+/* Header and Footer */
+/* Footer */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Full viewport height */
+}
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* Horizontal layout */
+  flex: 1;
+  /* Take up all available space */
+  align-items: center;
+}
+.IN_container-card-grid {
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns */
+  gap: 20px;
+  /* Add gap between cards */
+  max-height: 400px;
+  /* Set a maximum height for vertical scrolling */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  flex-wrap: wrap;
+  /* Allow cards to wrap within the grid */
+  padding-bottom: 10px;
+  /* Add some bottom padding for spacing */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+.student-info-enquiries {
+  margin-top: 10px;
+}
+.card-enquiries {
+  background-color: rgba(255, 255, 255, 0.617);
+  padding: 20px;
+  width: auto;
+  /* Limit each card to half of the grid container width */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* Add bottom margin for spacing between rows */
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+.card-row-enquiries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+card-enquiries:hover {
+  transform: translateY(-5px);
+  background-color: #dbdec8;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-row-enquiries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot footer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  height: 90px;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .pcgoals-main-container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .IN_container-card-grid {
+    margin-left: 25vw;
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.instructor-ui {
+  /* Group-14
+Rajpurohit, Ravi (1002079916)
+*/
+  /* PAGE CONTAINER */
+  /* MAIN CONTAINER */
+  /* Left Navbar */
+  /* Left Navbar */
+  /* CONTENT */
+  /* CHAT ICON */
+  /* RESPONSIVE */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* studentinfo.html STYLES */
+  /* remove if wrong */
+  /*STUDENT TABLE */
+  /* Clear floats after the columns */
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+}
+.instructor-ui .header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+}
+.instructor-ui .header-text {
+  flex-grow: 1;
+  /* Add this line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instructor-ui .head header {
+  color: #333333;
+  /* Dark Grey */
+  text-shadow: 2px 2px 4px #5d5858;
+  /* Text Shadow */
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 20px, ;
+  /* Increase padding to make them bigger */
+  font-family: 'Monotype Corsiva', cursive;
+  /* Custom font */
+  font-size: 50px;
+  /* Large font size */
+  height: 100px;
+  /* Increased height */
+  flex-wrap: wrap;
+}
+.instructor-ui .header {
+  font-family: 'Monotype Corsiva', cursive;
+  font-size: 50px;
+  height: 100px;
+  padding: 20px;
+}
+.instructor-ui .page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Full viewport height */
+}
+.instructor-ui .main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* Horizontal layout */
+  flex: 1;
+  /* Take up all available space */
+}
+.instructor-ui .left-navbar {
+  width: 300px;
+  /* Fixed width */
+  background-color: #528552;
+  color: white;
+  flex-shrink: 0;
+  /* Don't allow it to shrink */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Evenly space buttons */
+  height: 100%;
+  /* Take up all available space */
+  border-radius: 20px;
+}
+.instructor-ui .left-navbar a {
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+.instructor-ui .left-navbar a:hover {
+  background-color: #555;
+}
+.instructor-ui .nav-button {
+  flex-grow: 1;
+  /* Allow buttons to grow to fill space */
+  margin: 5px;
+  /* Add a little margin for separation */
+  padding: 10px;
+  /* Add padding for better spacing */
+  background-color: darkslategrey;
+}
+.instructor-ui .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* Center vertically */
+  height: 100%;
+  /* Take full available height */
+}
+.instructor-ui .course-box a {
+  color: #2f1401;
+  width: 300px;
+  /* Fixed width for better look */
+  height: 150px;
+  /* Fixed height */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 16px;
+  /* Increased rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  /* Professional box shadow for elevated look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for hover effect */
+  margin: 2vw;
+  text-decoration: none;
+  opacity: 0.8;
+  font-family: "Lexend Deca";
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.instructor-ui .course-box a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Increased shadow on hover for interactive feel */
+}
+.instructor-ui .chat-icon {
+  position: fixed;
+  /* Fixed position */
+  bottom: 60px;
+  /* Above the footer */
+  right: 20px;
+  /* Right side of the page */
+  z-index: 1000;
+  /* Above other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+  border-radius: 50%;
+  /* Fully rounded to make it look like an icon */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+.instructor-ui .chat-icon:hover {
+  transform: scale(1.2);
+  /* Slightly scale up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  /* Increased shadow on hover for interactive feel */
+}
+@media only screen and (max-width: 1023px) {
+  .instructor-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url('../assets/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .instructor-ui .page-container {
+    height: auto;
+    /* Let it adjust */
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .instructor-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url('../assets/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .instructor-ui .main-container {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .instructor-ui .left-navbar {
+    width: 100%;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+  }
+  .instructor-ui .course-box {
+    margin-top: 8vh;
+    /* Space between navbar and course boxes */
+    width: 400px;
+  }
+  .instructor-ui .primary-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .instructor-ui .page-container {
+    height: auto;
+    /* Let it adjust */
+  }
+  .instructor-ui .left-navbar {
+    width: 100%;
+  }
+  .instructor-ui .footer {
+    position: static;
+    bottom: auto;
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+  }
+}
+@media only screen and (max-width: 320px) {
+  .instructor-ui .page-container {
+    height: auto;
+    /* Let it adjust */
+  }
+  .instructor-ui .left-navbar {
+    width: 100%;
+  }
+  .instructor-ui .footer {
+    position: static;
+    bottom: auto;
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+  }
+}
+@media only screen and (max-width: 375px) {
+  .instructor-ui .left-navbar {
+    width: 100%;
+  }
+  .instructor-ui .footer {
+    position: static;
+    bottom: auto;
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+  }
+  .instructor-ui .primary-button {
+    position: relative;
+    margin-bottom: -20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .instructor-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url('../assets/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .instructor-ui .left-navbar {
+    width: 300px;
+  }
+  .instructor-ui .footer {
+    position: absolute;
+    bottom: 0;
+  }
+  .instructor-ui .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* Center items */
+    margin-left: 0;
+    /* Remove extra margin */
+    flex-wrap: wrap;
+  }
+  .instructor-ui .primary-button {
+    margin-left: 960px;
+    position: relative;
+    margin-bottom: -30px;
+  }
+  .instructor-ui button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.067);
+    transition: 0.3s;
+  }
+}
+.instructor-ui fieldset {
+  min-width: 450px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.instructor-ui input {
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+}
+.instructor-ui input#male,
+.instructor-ui input#female,
+.instructor-ui input#other {
+  height: auto;
+  position: absolute;
+  left: 90px;
+}
+.instructor-ui textarea {
+  border-radius: 8px;
+  font-family: "Lexend Deca";
+}
+.instructor-ui label {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+  cursor: pointer;
+}
+.instructor-ui .gender-label {
+  position: absolute;
+  left: 90px;
+}
+.instructor-ui legend,
+.instructor-ui h2 {
+  text-align: center;
+  font-family: "Lexend Deca";
+}
+.instructor-ui .readonly-list {
+  background: #ffffff85;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Lexend Deca";
+  width: auto;
+}
+.instructor-ui .simain-container {
+  display: flex;
+  flex-direction: row;
+}
+.instructor-ui .container {
+  margin-left: auto;
+  /* Pushes the container to occupy remaining space */
+  margin-right: auto;
+  /* Centers the container */
+  width: 30%;
+  /* You can adjust this width */
+}
+.instructor-ui button[type="submit"] {
+  font-family: "Lexend Deca";
+  background-color: #007BFF;
+  /* Blue */
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.instructor-ui button[type="submit"]:hover {
+  background-color: #1673d5;
+  /* Darker blue */
+  transform: translateY(-2px);
+}
+.instructor-ui button[type="submit"]:active {
+  background-color: #0153ab;
+  /* Even darker blue */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+@media (max-width: 768px) {
+  .instructor-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url('../assets/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .instructor-ui .simain-container {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .instructor-ui .left-navbar {
+    width: 100%;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .instructor-ui .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.instructor-ui .instruction-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+.instructor-ui .student-container {
+  width: 100%;
+  margin-right: 20px;
+}
+.instructor-ui .course-button {
+  margin-left: 100px;
+}
+.instructor-ui .modules-container {
+  width: 100%;
+  margin-right: 20px;
+}
+.instructor-ui .module-detail {
+  min-width: 650px;
+  background-color: #f1f1f175;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Lexend Deca";
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  column-gap: 10px;
+}
+.instructor-ui .module-detail:hover {
+  transform: translateY(-10px) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  /* Increased shadow on hover for interactive feel */
+}
+.instructor-ui .module-detail a {
+  text-decoration: none;
+  color: #000;
+}
+.instructor-ui #hmodule {
+  text-align: center;
+  align-items: center;
+}
+.instructor-ui button {
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+  text-align: right;
+  align-content: right;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 9px;
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin: auto;
+}
+.instructor-ui .primary-button {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  text-align: center;
+}
+.instructor-ui .primary-button:hover {
+  background-color: #555555bb;
+  color: white;
+}
+.instructor-ui .feedback-container {
+  width: 100%;
+}
+.instructor-ui * {
+  box-sizing: border-box;
+}
+.instructor-ui input[type=text],
+.instructor-ui select,
+.instructor-ui textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.instructor-ui label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.instructor-ui input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+.instructor-ui input[type=submit]:hover {
+  background-color: #45a049;
+}
+.instructor-ui .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.instructor-ui .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.instructor-ui .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.instructor-ui .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .instructor-ui .col-25,
+  .instructor-ui .col-75,
+  .instructor-ui input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.instructor-ui .profile_pic_update {
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*# sourceMappingURL=InstructorStyles.css.map */

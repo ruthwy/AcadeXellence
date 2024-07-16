@@ -1,0 +1,5665 @@
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+}
+.header-text {
+  flex-grow: 1;
+  /* Add this line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head header {
+  /* Dark Grey */
+  text-shadow: 2px 2px 4px #5d5858;
+  /* Text Shadow */
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: between;
+  padding: 5px;
+  /* Increase padding to make them bigger */
+  font-family: "Monotype Corsiva", cursive;
+  /* Custom font */
+  font-size: 50px;
+  /* Large font size */
+  height: auto;
+  /* Increased height */
+  flex-wrap: wrap;
+}
+.header {
+  font-family: "Monotype Corsiva", cursive;
+  font-size: 50px;
+  height: 100px;
+  padding: 20px;
+}
+/* Footer */
+.foot footer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  height: 35px;
+  padding: 10px;
+  font-family: "Lexend Deca";
+}
+.foot {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.global-styles-ui {
+  /* Rajpurohit, Ravi (1002079916) | Khande Rao, Anirudh Sai (1002075887)
+Reddi, Sai Ruthwik (1002063535) | Sayyed, Aashiq (1002082459)
+Thaker, Rutva (1002121470)*/
+  /* font-family: 'Monotype Corsiva', cursive; ---- for header
+    font-family: "Lexend Deca";------ for text in body */
+  /* PAGE CONTAINER */
+  /* MAIN CONTAINER */
+  /* Left Navbar */
+  /* Left Navbar */
+  /* CONTENT */
+  /* RESPONSIVE */
+  /* min-width at the end */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* studentinfo.html STYLES */
+  /* remove if wrong */
+  /* min-width at the end */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* studentexams.html STYLES */
+  /* New professional styles for Exams and Assignments */
+  /* Button Hover Effect with Transition */
+  /* Active Button Highlight */
+  /* Exams and Assignments Sections with Shadow and Font */
+  /* Text Styles with Font */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* studentfeedback.html STYLES */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* studentcourses.html STYLES */
+  /* Left Navbar */
+  /* Styling for the list of enrolled courses */
+  /* Styling for the fresh courses section */
+  /* Custom checkbox within .newenroll */
+  /* min-width at the end */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= ================================================================= */
+  /* course_1.html STYLES */
+  /* Left Navbar */
+  /* Left Navbar */
+  /* min-width at the end */
+  /* =================================================================
+    /* =================================================================
+    /* course1(overview).html */
+  /* min-width at the end */
+  /* =================================================================
+    /* =================================================================
+    /* course1modules.html */
+  /* =================================================================
+    /* =================================================================
+    /* course1grades.html */
+  /* Zebra striping */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* before login styles */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* program coordinator styles */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* admin styles */
+  /* admin_home.html */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* admin styles */
+  /* manage_course.html */
+  /* Zebra striping */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Quality assurance Officer styles */
+  /* qao.html */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Quality assurance Officer styles */
+  /* qaorecommendations.html */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Quality assurance Officer styles */
+  /* qareports.html */
+  /* PC_container styles */
+  /* Collaboration-box styles */
+  /* Collaboration-container styles */
+  /* Table styles */
+  /* Loading animation styles */
+  /* report stles */
+  /* Add a hover effect to the cards */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Quality assurance Officer styles */
+  /* qamonitor.html */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Chat styles */
+  /* chat.html */
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* ======================================================================================================*/
+  /* Forgot Pasword styles */
+  /* Login styles*/
+  /* Homepage styles */
+  /* services css*/
+  /*  contact form styles */
+  /* Apply the hover effect to both contact-info and contact-form sections */
+  /* signup css */
+  /* Styles for screens between 320px and 374px */
+  /* Styles for screens between 375px and 767px */
+  /* Styles for screens between 768px and 911px */
+  /* Styles for screens between 912px and 1023px */
+  /* Styles for screens 1024px and above */
+  /* About Us styles */
+  /* For medium devices */
+  /* For large devices */
+  /* For small devices */
+  /* PC Styles */
+  /* Style the student info within the card */
+  /* Add a hover effect to the cards */
+  /* For small devices */
+  /* ===================================================================================================================== */
+  /* CHAT ICON */
+}
+.global-styles-ui body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* Situate the background behind the content */
+  background-image: url("../assets/bgimg.jpg") !important;
+  background-size: cover;
+  /* Make the background image lighter */
+  filter: brightness(1);
+}
+.global-styles-ui .page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Full viewport height */
+}
+.global-styles-ui .main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* Horizontal layout */
+  flex: 1;
+  /* Take up all available space */
+  align-items: center;
+}
+.global-styles-ui .actual-footer {
+  background: #6ea0e6;
+  width: 100%;
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 999 !important;
+}
+.global-styles-ui .left-navbar {
+  height: fit-content;
+  width: 300px;
+  /* Fixed width */
+  background-color: #528552;
+  color: white;
+  flex-shrink: 0;
+  /* Don't allow it to shrink */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Evenly space buttons */
+  /* Take up all available space */
+  border-radius: 20px;
+}
+.global-styles-ui .left-navbar a {
+  font-family: "Lexend Deca";
+  justify-content: center;
+  display: flex;
+  padding: 18px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+.global-styles-ui .left-navbar a:hover {
+  background-color: #555;
+}
+.global-styles-ui .nav-button {
+  flex-grow: 1;
+  /* Allow buttons to grow to fill space */
+  margin: 5px;
+  /* Add a little margin for separation */
+  padding: 10px;
+  /* Add padding for better spacing */
+  background-color: darkslategrey;
+}
+.global-styles-ui .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* Center vertically */
+  height: 100%;
+  /* Take full available height */
+}
+.global-styles-ui .course-box a {
+  color: #000000;
+  width: 300px;
+  /* Fixed width for better look */
+  height: 150px;
+  /* Fixed height */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 16px;
+  /* Increased rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  /* Professional box shadow for elevated look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for hover effect */
+  margin: 2vw;
+  text-decoration: none;
+  opacity: 0.8;
+  font-family: "Lexend Deca";
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.494);
+}
+.global-styles-ui .course-box a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.571);
+  /* Increased shadow on hover for interactive feel */
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .main-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+  }
+  .global-styles-ui .content {
+    flex-direction: column;
+  }
+  .global-styles-ui .course-box {
+    margin-top: 8vh;
+  }
+  .global-styles-ui .course-box a {
+    width: 70vw;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .main-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+  }
+  .global-styles-ui .content {
+    flex-direction: column;
+  }
+  .global-styles-ui .course-box {
+    margin-top: 8vh;
+  }
+  .global-styles-ui .course-box a {
+    width: 70vw;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+  }
+  .global-styles-ui .main-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    width: 85vw;
+  }
+  .global-styles-ui .content {
+    flex-direction: column;
+  }
+  .global-styles-ui .course-box {
+    margin-top: 8vh;
+  }
+  .global-styles-ui .course-box a {
+    width: 75vw;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+  }
+  .global-styles-ui .main-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    width: 90vw;
+  }
+  .global-styles-ui .content {
+    flex-direction: column;
+  }
+  .global-styles-ui .course-box {
+    margin-top: 8vh;
+  }
+  .global-styles-ui .course-box a {
+    width: 80vw;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui {
+    /* ... your rules ... */
+  }
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+  }
+  .global-styles-ui .left-navbar {
+    width: 90vw;
+  }
+  .global-styles-ui .content {
+    flex-direction: column;
+  }
+  .global-styles-ui .main-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .course-box a {
+    width: 90vw;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .main-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    width: 300px;
+  }
+  .global-styles-ui .content {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .course-box {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .global-styles-ui .course-box a {
+    width: 20vw;
+  }
+}
+.global-styles-ui button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.global-styles-ui #info {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.global-styles-ui .info-contact-form {
+  width: auto;
+}
+@media (min-width: 1024px) {
+  .global-styles-ui .contact-info {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 70vw;
+  }
+  .global-styles-ui .info-contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw !important;
+  }
+}
+.global-styles-ui #info input {
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui #info select {
+  width: 15vw;
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+  border: 1px #000;
+}
+.global-styles-ui #info input#male,
+.global-styles-ui #info input#female,
+.global-styles-ui #info input#other {
+  height: auto;
+  position: absolute;
+  left: 90px;
+}
+.global-styles-ui #info text {
+  height: 40px;
+}
+.global-styles-ui #info textarea {
+  border-radius: 8px;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui #info label {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+  cursor: pointer;
+}
+.global-styles-ui .gender-label {
+  position: absolute;
+  left: 90px;
+}
+.global-styles-ui legend,
+.global-styles-ui h2,
+.global-styles-ui h1 {
+  text-align: center;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui .readonly-list {
+  background: #ffffff85;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Lexend Deca";
+  width: auto;
+}
+.global-styles-ui .simain-container {
+  display: flex;
+  flex-direction: row;
+}
+.global-styles-ui .sicontainer {
+  /* max-height: 80vh;  70% of the viewport height */
+  overflow-y: auto;
+  margin-left: auto;
+  /* Pushes the container to occupy remaining space */
+  margin-right: auto;
+  /* Centers the container */
+  /* You can adjust this width */
+}
+.global-styles-ui .sicontainer::-webkit-scrollbar {
+  width: 6px;
+}
+.global-styles-ui .sicontainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Transparent black */
+  border-radius: 3px;
+}
+.global-styles-ui button[type="submit"] {
+  font-family: "Lexend Deca";
+  background-color: #007bff;
+  /* Blue */
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 5px;
+}
+.global-styles-ui button[type="submit"]:hover {
+  background-color: #1673d5;
+  /* Darker blue */
+  transform: translateY(-2px);
+}
+.global-styles-ui button[type="submit"]:active {
+  background-color: #0153ab;
+  /* Even darker blue */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: 95vw;
+  }
+  .global-styles-ui .sicontainer {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: 95vw;
+  }
+  .global-styles-ui .sicontainer {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: 95vw;
+  }
+  .global-styles-ui .sicontainer {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    width: 95vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    overflow-y: visible;
+    max-height: none;
+  }
+  .global-styles-ui fieldset {
+    /* Override the min-width */
+    width: auto;
+    /* Take full width */
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: 95vw;
+  }
+  .global-styles-ui .sicontainer {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .sipage-container {
+    flex-direction: column;
+  }
+  .global-styles-ui .simain-container {
+    flex-direction: row;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 0.5vw;
+    height: fit-content;
+    width: 300px;
+    align-self: flex-start;
+  }
+  .global-styles-ui .sicontainer {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.global-styles-ui .sepage-container {
+  display: flex;
+  flex-direction: column;
+}
+.global-styles-ui #exams,
+.global-styles-ui #assignments {
+  max-height: 65vh;
+  /* Maximum height */
+  overflow-y: auto;
+  /* Enable vertical scrollbar */
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.global-styles-ui #exams::-webkit-scrollbar,
+.global-styles-ui #assignments::-webkit-scrollbar {
+  width: 8px;
+}
+.global-styles-ui #exams::-webkit-scrollbar-thumb,
+.global-styles-ui #assignments::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Transparent black */
+}
+.global-styles-ui .button-container button {
+  width: 60%;
+  margin: 0.5vw 2vw;
+  background-color: #4c61af;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+  font-family: "Lexend Deca";
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.global-styles-ui .button-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: #ffffff4a;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.global-styles-ui .button-container a {
+  text-decoration: none;
+  color: white;
+}
+.global-styles-ui .button-container button.active {
+  background-color: #ffd700;
+  /* Gold */
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.global-styles-ui .button-container button:hover {
+  background-color: #45a049;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.global-styles-ui .exam-detail,
+.global-styles-ui .assignment-detail {
+  min-width: 650px;
+  background-color: #f1f1f175;
+  margin: 20px 0;
+  padding: 4px 15px 30px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Lexend Deca";
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  column-gap: 10px;
+}
+.global-styles-ui .exam-detail ul,
+.global-styles-ui .assignment-detail ul {
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.global-styles-ui .exam-detail li,
+.global-styles-ui .assignment-detail li {
+  flex: 1;
+  text-align: center;
+  padding: 2px;
+  border-right: 1px solid black;
+}
+.global-styles-ui .exam-detail li:last-child,
+.global-styles-ui .assignment-detail li:last-child {
+  border-right: none;
+}
+.global-styles-ui .exam-detail:hover,
+.global-styles-ui .assignment-detail:hover {
+  transform: translateY(-10px) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  /* Increased shadow on hover for interactive feel */
+}
+.global-styles-ui .exam-detail h3,
+.global-styles-ui .assignment-detail h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.global-styles-ui .exam-detail a,
+.global-styles-ui .assignment-detail a {
+  font-family: "Lexend Deca";
+  color: #000;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+.global-styles-ui .secontent {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.global-styles-ui .semain-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .semain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .secontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui #exams,
+  .global-styles-ui #assignments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .exam-detail,
+  .global-styles-ui .assignment-detail {
+    min-width: 65%;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: none;
+  }
+  .global-styles-ui .button-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .global-styles-ui .button-container button {
+    margin: 8px;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .semain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .secontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui #exams,
+  .global-styles-ui #assignments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .exam-detail,
+  .global-styles-ui .assignment-detail {
+    min-width: 65%;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: none;
+  }
+  .global-styles-ui .button-container {
+    width: 80vw;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .semain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .secontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui #exams,
+  .global-styles-ui #assignments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .exam-detail,
+  .global-styles-ui .assignment-detail {
+    min-width: 65%;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: none;
+  }
+  .global-styles-ui .button-container button {
+    width: 60%;
+    margin: 0.5vw 2vw;
+  }
+  .global-styles-ui .button-container {
+    width: 80vw;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .semain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .secontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui #exams,
+  .global-styles-ui #assignments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .exam-detail,
+  .global-styles-ui .assignment-detail {
+    min-width: 65%;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: none;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .semain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 0.5vw;
+    height: fit-content;
+    width: 95vw;
+    align-self: center;
+  }
+  .global-styles-ui .secontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui #exams,
+  .global-styles-ui #assignments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: 1px solid black;
+  }
+  .global-styles-ui .exam-detail li:last-child,
+  .global-styles-ui .assignment-detail li:last-child {
+    border-right: none;
+  }
+  .global-styles-ui .button-container {
+    width: 450px;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 0.5vw;
+    height: fit-content;
+    width: 300px;
+    align-self: center;
+  }
+  .global-styles-ui .sepage-container {
+    min-height: 100%;
+  }
+  .global-styles-ui .semain-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .secontent {
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+  .global-styles-ui .exam-detail ul,
+  .global-styles-ui .assignment-detail ul {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .global-styles-ui .exam-detail li,
+  .global-styles-ui .assignment-detail li {
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+    border-right: 1px solid black;
+  }
+  .global-styles-ui .exam-detail li:last-child,
+  .global-styles-ui .assignment-detail li:last-child {
+    border-right: none;
+  }
+  .global-styles-ui .button-container {
+    width: 450px;
+  }
+}
+.global-styles-ui .sfpage-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+.global-styles-ui #note {
+  font-family: "Lexend Deca";
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.global-styles-ui .sfmain-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.global-styles-ui .sfcontent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.global-styles-ui .feedback-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+  }
+  .global-styles-ui .sfmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .sfcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .sfmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .sfcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .sfmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .sfcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .sfmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .sfcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .sfmain-container {
+    flex-wrap: wrap;
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 1vw;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .sfcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .sfpage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+  }
+  .global-styles-ui .sfcontent {
+    margin-left: auto;
+    margin-right: auto;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .sfmain-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: center;
+    width: 300px;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+.global-styles-ui body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* Situate the background behind the content */
+  background-image: url("");
+  background-size: cover;
+  /* Make the background image lighter */
+  filter: brightness(1);
+}
+.global-styles-ui h2 {
+  font-family: "Lexend Deca";
+}
+.global-styles-ui .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.global-styles-ui .left-navbar {
+  height: fit-content;
+  width: 300px;
+  /* Fixed width */
+  background-color: #528552;
+  color: white;
+  flex-shrink: 0;
+  /* Don't allow it to shrink */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Evenly space buttons */
+  /* Take up all available space */
+  border-radius: 20px;
+}
+.global-styles-ui .left-navbar a {
+  font-family: "Lexend Deca";
+  justify-content: center;
+  display: flex;
+  padding: 18px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+.global-styles-ui .left-navbar a:hover {
+  background-color: #555;
+}
+.global-styles-ui .nav-button {
+  flex-grow: 1;
+  /* Allow buttons to grow to fill space */
+  margin: 5px;
+  /* Add a little margin for separation */
+  padding: 10px;
+  /* Add padding for better spacing */
+  background-color: darkslategrey;
+}
+.global-styles-ui .scpage-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.global-styles-ui .scmain-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+.global-styles-ui .sccontent {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.global-styles-ui .enrolled ul {
+  list-style-type: none;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  min-width: 30vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.global-styles-ui .enrolled ul li {
+  font-family: "Lexend Deca";
+  background-color: #ffffff89;
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.global-styles-ui .sccontent form {
+  margin-top: 20px;
+}
+.global-styles-ui .sccontent input[type="checkbox"] {
+  margin-right: 10px;
+}
+.global-styles-ui .sccontent input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.global-styles-ui .sccontent input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.global-styles-ui .enrolled {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 15;
+}
+.global-styles-ui .enrolled {
+  background-color: rgba(255, 255, 255, 0.356);
+  /* White with 80% opacity */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional */
+}
+.global-styles-ui .newenroll {
+  background-color: rgba(255, 255, 255, 0.356);
+  /* White with 80% opacity */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional */
+}
+.global-styles-ui .newenroll {
+  font-family: "Lexend Deca";
+  min-width: 35vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.global-styles-ui .newenroll .custom-checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.global-styles-ui .newenroll .custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+.global-styles-ui .newenroll .custom-checkbox label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #000000;
+}
+.global-styles-ui .newenroll .custom-checkbox label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.global-styles-ui .newenroll .custom-checkbox input[type="checkbox"]:checked + label:before {
+  background-color: #007bff;
+  border: none;
+}
+.global-styles-ui .newenroll .custom-checkbox input[type="checkbox"]:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.global-styles-ui .note {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .scpage-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .scmain-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .sccontent {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .global-styles-ui .enrolled,
+  .global-styles-ui .newenroll {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .scpage-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .scmain-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .sccontent {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .global-styles-ui .enrolled,
+  .global-styles-ui .newenroll {
+    width: 90vw;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .scpage-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .scmain-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .sccontent {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .global-styles-ui .enrolled,
+  .global-styles-ui .newenroll {
+    width: 90vw;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui #course-overview p {
+    width: 85vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 45vw;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .scpage-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .scmain-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+}
+@media (min-width: 1181px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .scpage-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .scmain-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 0.5vw;
+    height: fit-content;
+    width: 300px;
+    align-self: center;
+  }
+  .global-styles-ui .sccontent {
+    margin-top: 20px;
+    flex-direction: row;
+  }
+  .global-styles-ui .enrolled,
+  .global-styles-ui .newenroll {
+    width: 30vw;
+    margin-bottom: 15px;
+  }
+  .global-styles-ui .enrolled li {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .global-styles-ui .enrolled ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}
+.global-styles-ui #course2 h1 {
+  font-family: "Lexend Deca";
+}
+.global-styles-ui .c1main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* Horizontal layout */
+  flex: 1;
+  /* Take up all available space */
+  align-items: center;
+  row-gap: 10px;
+}
+.global-styles-ui .c1left-navbar {
+  height: fit-content;
+  width: 200px;
+  /* Fixed width */
+  background-color: #528552;
+  color: white;
+  flex-shrink: 0;
+  /* Don't allow it to shrink */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Evenly space buttons */
+  /* Take up all available space */
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.global-styles-ui .c1left-navbar a {
+  font-family: "Lexend Deca";
+  justify-content: center;
+  display: flex;
+  padding: 18px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+.global-styles-ui .c1left-navbar a:hover {
+  background-color: #555;
+}
+.global-styles-ui .c1nav-button {
+  flex-grow: 1;
+  /* Allow buttons to grow to fill space */
+  margin: 5px;
+  /* Add a little margin for separation */
+  padding: 10px;
+  /* Add padding for better spacing */
+  background-color: darkslategrey;
+}
+.global-styles-ui .c1right-navbar {
+  height: fit-content;
+  width: 200px;
+  /* Fixed width */
+  background-color: #527285;
+  color: white;
+  flex-shrink: 0;
+  /* Don't allow it to shrink */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Evenly space buttons */
+  /* Take up all available space */
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.global-styles-ui .c1right-navbar a {
+  font-family: "Lexend Deca";
+  justify-content: center;
+  display: flex;
+  padding: 12px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+.global-styles-ui .c1right-navbar a:hover {
+  background-color: #555;
+}
+.global-styles-ui .c1nav-button2 {
+  flex-grow: 1;
+  /* Allow buttons to grow to fill space */
+  margin: 15px;
+  /* Add a little margin for separation */
+  padding: 5px;
+  /* Add padding for better spacing */
+  background-color: #2f354f;
+}
+.global-styles-ui .c1content {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  /* Adjust the height as needed */
+}
+.global-styles-ui embed {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  height: 700px;
+  width: 60vw;
+}
+.global-styles-ui h1 {
+  font-size: 45;
+  font-weight: lighter;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 80vw;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 80vw;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 80vw;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: 0px;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 80vw;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-right: 2vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-right: 2vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui embed {
+    width: 60vw;
+  }
+}
+.global-styles-ui h1 {
+  font-size: 45;
+  font-weight: lighter;
+}
+.global-styles-ui #course-overview img {
+  width: 25vw;
+  /* Sets the width to 50% of the viewport width */
+  max-width: 20vw;
+  /* Ensures it doesn't overflow its container */
+  height: 25vh;
+  /* Sets the height to 50% of the viewport height */
+  max-width: 100%;
+  border: 3px solid #37353567;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.global-styles-ui #course-overview {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 25px;
+}
+.global-styles-ui #course-overview {
+  background-color: rgba(255, 255, 255, 0.613);
+  /* White with 80% opacity */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional */
+}
+.global-styles-ui #course-overview p,
+.global-styles-ui ul,
+.global-styles-ui li {
+  font-family: "Lexend Deca";
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui #course-overview p {
+    width: 90vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 80vw;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #course-overview p {
+    width: 85vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 80vw;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui #course-overview p {
+    width: 85vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 45vw;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #course-overview p {
+    width: 85vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 45vw;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .c1main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #course-overview p {
+    width: 85vw;
+  }
+  .global-styles-ui #course-overview img {
+    width: 55vw;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Make the background image lighter */
+    filter: brightness(1);
+  }
+  .global-styles-ui .page-container {
+    height: 100%;
+    flex-direction: column;
+  }
+  .global-styles-ui .c1main-container {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .global-styles-ui .c1left-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-left: 1vw;
+    margin-right: 2vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 1vw;
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+  }
+  .global-styles-ui #course-overview {
+    max-width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #course-overview p {
+    width: auto;
+  }
+  .global-styles-ui #course-overview img {
+    width: 35vw;
+  }
+  .global-styles-ui .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.global-styles-ui .c1mcontent {
+  margin-left: auto;
+  margin-right: auto;
+}
+.global-styles-ui .modules {
+  height: 65vh;
+  /* Maximum height */
+  overflow-y: auto;
+  /* Enable vertical scrollbar */
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.global-styles-ui .modules::-webkit-scrollbar {
+  width: 8px;
+}
+.global-styles-ui .modules::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Transparent black */
+  border-radius: 4px;
+}
+.global-styles-ui .module-detail {
+  min-width: 30vw;
+  background-color: #f1f1f175;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Lexend Deca";
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  column-gap: 10px;
+}
+.global-styles-ui .module-detail:hover {
+  transform: translateY(-10px) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  /* Increased shadow on hover for interactive feel */
+}
+.global-styles-ui .module-detail a {
+  text-decoration: none;
+  color: #000;
+}
+.global-styles-ui #hmodule {
+  text-align: center;
+  align-items: center;
+}
+@media (min-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .c1main-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .c1left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .c1right-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .c1content {
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .c1mcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui .modules {
+    width: 100vw;
+    min-height: 100%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .module-detail {
+    min-width: 80vw;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .c1main-container {
+    row-gap: 35px;
+    flex-direction: row;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .c1left-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-left: 1vw;
+    margin-right: 2vw;
+  }
+  .global-styles-ui .c1right-navbar {
+    height: fit-content;
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 1vw;
+  }
+  .global-styles-ui .c1mcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .global-styles-ui .modules {
+    width: 40vw;
+    height: 75vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .global-styles-ui .module-detail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 8vw;
+    background-color: #f1f1f175;
+    margin: 30px 0;
+    padding: 4px 15px 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend Deca";
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+    column-gap: 10px;
+  }
+}
+.global-styles-ui .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  /* LinkedIn blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.global-styles-ui .button > a {
+  text-decoration: none;
+  color: white;
+}
+.global-styles-ui .grades-table {
+  width: 65vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  /* Add this line */
+}
+.global-styles-ui .grades-table thead {
+  background-color: #404040;
+  color: #ffffff;
+}
+.global-styles-ui .grades-table thead tr:first-child th:first-child {
+  border-top-left-radius: 20px;
+}
+.global-styles-ui .grades-table thead tr:first-child th:last-child {
+  border-top-right-radius: 20px;
+}
+.global-styles-ui .grades-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+.global-styles-ui .grades-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+.global-styles-ui .grades-table-row {
+  transition: background-color 0.3s ease;
+}
+.global-styles-ui .grades-table-row:hover,
+.global-styles-ui .grades-table-row:nth-child(even):hover {
+  background-color: #92615aa5;
+}
+.global-styles-ui .grades-table-row > td,
+.global-styles-ui th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.global-styles-ui .grades-table-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.global-styles-ui .grades-table-header {
+  background-color: #404040;
+  color: white;
+}
+.global-styles-ui .bar-container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.global-styles-ui .bar {
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background-color: blue;
+  margin: 20px;
+  position: relative;
+}
+.global-styles-ui .marks {
+  display: inline-block;
+  width: 90%;
+  height: 10px;
+  background-color: green;
+  /* margin: 20px; */
+}
+.global-styles-ui body {
+  background-color: gray;
+}
+.global-styles-ui .mean {
+  display: inline-block;
+  width: 5px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  left: 75%;
+}
+.global-styles-ui .ahpage_container {
+  min-height: 100%;
+  /* takes full viewport height */
+}
+.global-styles-ui .ahmain-container {
+  display: flex;
+  flex-direction: row;
+}
+.global-styles-ui .ahcontent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .ahmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .ahcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .ahmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .ahcontent {
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .ahmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .ahcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui #note {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .ahmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .ahcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .ahmain-container {
+    row-gap: 35px;
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .left-navbar {
+    margin-left: 1vw;
+    margin-right: auto;
+    width: 90vw;
+    box-sizing: border-box;
+    /* To ensure padding doesn't affect width */
+  }
+  .global-styles-ui .ahcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .ahcontent {
+    margin-left: auto;
+    margin-right: auto;
+    /* Stack items vertically */
+  }
+  .global-styles-ui .ahpage_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+  }
+  .global-styles-ui .ahmain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: center;
+    width: 300px;
+  }
+  .global-styles-ui .foot {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.global-styles-ui .amcpage_container {
+  display: flex;
+  flex-direction: column;
+}
+.global-styles-ui .amcmain-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.global-styles-ui .amccontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.global-styles-ui .form {
+  margin: 20px;
+  display: flex;
+  height: auto;
+}
+.global-styles-ui .admin_form {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.global-styles-ui #admc {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.global-styles-ui #admc legend {
+  font-family: "Lexend Deca";
+  font-size: 25px;
+}
+.global-styles-ui #admc input {
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui #admc select {
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui #admc textarea {
+  border-radius: 8px;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui #admc label {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+  cursor: pointer;
+}
+.global-styles-ui .amcgrades-table {
+  width: 65vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  /* Add this line */
+}
+.global-styles-ui .amcgrades-table thead {
+  background-color: #404040;
+  color: #ffffff;
+}
+.global-styles-ui .amcgrades-table thead tr:first-child th:first-child {
+  border-top-left-radius: 20px;
+  border-left: transparent;
+  border-top: transparent;
+}
+.global-styles-ui .amcgrades-table thead tr:first-child th:last-child {
+  border-top-right-radius: 20px;
+  border-right: transparent;
+  border-top: transparent;
+}
+.global-styles-ui .amcgrades-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+.global-styles-ui .amcgrades-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+.global-styles-ui .amcgrades-table-row {
+  transition: background-color 0.3s ease;
+}
+.global-styles-ui .amcgrades-table-row:hover,
+.global-styles-ui .grades-table-row:nth-child(even):hover {
+  background-color: #92615aa5;
+}
+.global-styles-ui .amcgrades-table-row > td,
+.global-styles-ui th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.global-styles-ui .amcgrades-table-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.global-styles-ui .amcgrades-table-header {
+  background-color: #404040;
+  color: white;
+}
+.global-styles-ui .amcgrades-table-row button[type="submit"] {
+  font-family: "Lexend Deca";
+  background-color: #007bff;
+  /* Blue */
+  color: white;
+  padding: 8px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.global-styles-ui button[type="submit"]:hover {
+  background-color: #1673d5;
+  /* Darker blue */
+  transform: translateY(-2px);
+}
+.global-styles-ui .nuser {
+  width: auto !important;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #admc {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .amcgrades-table {
+    width: 90vw;
+  }
+  .global-styles-ui .amccontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #admc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .amcgrades-table {
+    width: 90vw;
+  }
+  .global-styles-ui .amccontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+  .global-styles-ui .amctable {
+    width: auto;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcpage_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #admc {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .amcgrades-table {
+    overflow: auto;
+    /* Enables scrolling if content overflows */
+    height: 20vh;
+    /* Or whatever maximum height you desire */
+    width: 500px;
+  }
+  .global-styles-ui .amccontent {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #admc {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .amcgrades-table {
+    width: 90vw;
+  }
+  .global-styles-ui .amccontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui #admc {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .amcgrades-table {
+    width: 90vw;
+  }
+  .global-styles-ui .amccontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .amcmain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: center;
+    width: 300px;
+    margin-left: 1vw;
+  }
+  .global-styles-ui .amccontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .footer {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+  }
+  .global-styles-ui #admc {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .global-styles-ui .amcgrades-table {
+    width: 70vw;
+  }
+}
+.global-styles-ui .qapage-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.global-styles-ui .qamain-container {
+  display: flex;
+  flex-direction: row;
+}
+.global-styles-ui .qacontainer {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.global-styles-ui #info p,
+.global-styles-ui #info h3,
+.global-styles-ui #info ol {
+  font-family: "Lexend Deca";
+}
+@media (max-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 321px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qapage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .global-styles-ui .qamain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: center;
+    width: 300px;
+    margin-left: 1vw;
+  }
+  .global-styles-ui .qacontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60vw;
+  }
+}
+.global-styles-ui .qrecpage-container {
+  display: flex;
+  flex-direction: column;
+}
+.global-styles-ui .qrecmain-container {
+  display: flex;
+  flex-direction: row;
+}
+.global-styles-ui .qreccontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qrecmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qreccontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qrecmain-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qreccontainer {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .global-styles-ui .qaorec {
+    width: 60vw;
+  }
+  .global-styles-ui #description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw !important;
+    /* or any other percentage or viewport-based width */
+    resize: both;
+    /* Allows resizing both vertically and horizontally */
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qrecmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .qreccontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+  }
+  .global-styles-ui #description {
+    width: 60vw !important;
+    /* or any other percentage or viewport-based width */
+    resize: both;
+    /* Allows resizing both vertically and horizontally */
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .qrecmain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: center;
+    width: 300px;
+    margin-left: 1vw;
+  }
+  .global-styles-ui .qreccontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+  }
+  .global-styles-ui #description {
+    width: 70% !important;
+    /* or any other percentage or viewport-based width */
+    resize: both;
+    /* Allows resizing both vertically and horizontally */
+  }
+}
+.global-styles-ui .pcrmain-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.global-styles-ui .right-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+.global-styles-ui .PC_container {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.global-styles-ui .collaboration-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.global-styles-ui .collaboration-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff90;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add box shadow */
+}
+.global-styles-ui .collaboration-container {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  /* Add margin top */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add box shadow */
+}
+.global-styles-ui .scrollable_container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+.global-styles-ui #data-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.global-styles-ui #data-table thead {
+  position: sticky;
+  top: 0;
+  background-color: #007bff;
+  color: #fff;
+  z-index: 1;
+}
+.global-styles-ui #data-table th,
+.global-styles-ui #data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.global-styles-ui #data-table tbody {
+  max-height: 200px;
+  /* Adjust this value as needed */
+  overflow-y: auto;
+}
+.global-styles-ui #data-table.loading tbody tr {
+  animation: loading 1.5s infinite;
+}
+.global-styles-ui .PC_container {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  /* Adjust the gap between the cards */
+  padding: 16px;
+  /* Adjust the padding around the container */
+}
+.global-styles-ui .card {
+  background-color: rgba(255, 255, 255, 0.683);
+  padding: 20px;
+  margin: 10px;
+  margin-left: 12px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.global-styles-ui .card:hover {
+  transform: translateY(-5px);
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.global-styles-ui h2 {
+  margin: 0 0 8px;
+  /* Adjust the margin around the course name */
+  font-size: 18px;
+  /* Adjust the font size of the course name */
+}
+.global-styles-ui p {
+  font-family: "Lexend Deca";
+  margin: 0;
+  /* Adjust the margin around the pass percentage */
+  font-size: 16px;
+  /* Adjust the font size of the pass percentage */
+}
+.global-styles-ui .PC_container {
+  margin-top: 5vw;
+  padding: 20px;
+  width: 70vw;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.global-styles-ui .pcrpage_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+}
+.global-styles-ui .card a {
+  text-decoration: none;
+  color: #000;
+}
+@media (max-width: 319px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 375px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 912px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* Situate the background behind the content */
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+  }
+  .global-styles-ui .pcrmain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .global-styles-ui .left-navbar {
+    height: fit-content;
+    /* To ensure padding doesn't affect width */
+    align-self: flex-start;
+    width: 300px;
+    margin-left: 1vw;
+  }
+  .global-styles-ui .PC_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
+  }
+  .global-styles-ui .right-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.global-styles-ui .monitor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.549);
+  border-radius: 15px;
+  margin: 10px;
+}
+.global-styles-ui .monitor-details {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+@media (min-width: 319px) {
+  .global-styles-ui .special-form {
+    min-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui .qamonpage_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .global-styles-ui .left-navbar {
+    margin-top: 5vw;
+  }
+  .global-styles-ui .qamonmain-container {
+    display: flex;
+    flex-wrap: row;
+    height: 100%;
+  }
+  .global-styles-ui .foot {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.global-styles-ui .chpage-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+.global-styles-ui .chmain-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.global-styles-ui .searchcontent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.global-styles-ui .chat-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f1f1f175;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Lexend Deca";
+}
+.global-styles-ui .old-chats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.global-styles-ui .old-chats-header input {
+  width: 30px;
+}
+.global-styles-ui .old-chats-header input {
+  height: 20px;
+}
+.global-styles-ui .chat-template {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff85;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.global-styles-ui .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.global-styles-ui .chat-container input {
+  /* Add your styles here */
+  text-align: center;
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+}
+@media (max-width: 319px) {
+  .global-styles-ui .chatheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .chatheader .chatdropdown {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .global-styles-ui .chatheader .chatsearch {
+    width: 100%;
+  }
+  .global-styles-ui .chat-container {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .chpage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+    overflow: auto;
+  }
+  .global-styles-ui .chmain-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .foot {
+    position: relative;
+    bottom: 0;
+  }
+}
+@media (min-width: 320px) {
+  .global-styles-ui .chatheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .chatheader .chatdropdown {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .global-styles-ui .chatheader .chatsearch {
+    width: 100%;
+  }
+  .global-styles-ui .chat-container {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .chpage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+    overflow: auto;
+  }
+  .global-styles-ui .chmain-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .global-styles-ui .foot {
+    position: relative;
+    bottom: 0;
+  }
+}
+@media (min-width: 769px) {
+  .global-styles-ui .chatheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .chatheader .chatdropdown {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .global-styles-ui .chatheader .chatsearch {
+    width: 100%;
+  }
+  .global-styles-ui .chat-container {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .global-styles-ui .chpage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+    overflow: auto;
+  }
+  .global-styles-ui .chmain-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .global-styles-ui .foot {
+    position: relative;
+    bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui .chatheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .global-styles-ui .chatheader .chatdropdown {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .global-styles-ui .chatheader .chatsearch {
+    width: 100%;
+  }
+  .global-styles-ui .chat-container {
+    width: 30vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
+    margin-right: auto;
+  }
+  .global-styles-ui .chpage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100%;
+  }
+  .global-styles-ui .chmain-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+.global-styles-ui .bar-container {
+  height: 20vh;
+  max-width: 70vw;
+  min-width: 60vw;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.global-styles-ui .bar {
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background-color: blue;
+  margin: 20px;
+  position: relative;
+}
+.global-styles-ui .bar .mean-num {
+  left: 80%;
+}
+.global-styles-ui .bar .marks {
+  left: 89%;
+}
+.global-styles-ui .bar .min {
+  left: 0%;
+  top: -30px;
+}
+.global-styles-ui .bar .max {
+  left: 95%;
+  top: -30px;
+}
+.global-styles-ui .marks {
+  display: inline-block;
+  width: 90%;
+  height: 10px;
+  background-color: green;
+  /* margin: 20px; */
+}
+.global-styles-ui .bar-page {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+.global-styles-ui .mean {
+  display: inline-block;
+  width: 5px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  left: 80%;
+}
+.global-styles-ui .mean-marks {
+  display: inline-block;
+  /* width:px; */
+  height: 10px;
+  /* background-color: red;  */
+  position: absolute;
+  margin-top: 10px;
+  left: 80%;
+}
+.global-styles-ui .marks-letter {
+  display: inline-block;
+  /* width:; */
+  height: 10px;
+  /* background-color: green; */
+  /* margin: 20px; */
+  position: absolute;
+  left: 89%;
+  margin-top: 10px;
+}
+.global-styles-ui .marks-min {
+  display: inline-block;
+  /* width:; */
+  height: 10px;
+  /* background-color: green; */
+  /* margin: 20px; */
+  position: absolute;
+  left: 89%;
+  margin-top: 10px;
+}
+.global-styles-ui .marks-letter {
+  display: inline-block;
+  /* width:; */
+  height: 10px;
+  /* background-color: green; */
+  /* margin: 20px; */
+  position: absolute;
+  left: 89%;
+  margin-top: 10px;
+}
+.global-styles-ui .numbers {
+  display: inline-block;
+  /* width:; */
+  height: 10px;
+  /* background-color: green; */
+  /* margin: 20px; */
+  position: absolute;
+  margin-top: 10px;
+}
+.global-styles-ui .fp-container {
+  /* width: 40%; */
+  margin: auto;
+  padding: 20px;
+}
+.global-styles-ui button.reset-button,
+.global-styles-ui button.resend-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-image 0.3s, background-position 0.3s;
+  /* Added transition */
+  background-image: linear-gradient(90deg, #007bff, #0056b3);
+  /* Initial gradient background */
+  background-size: 200% 100%;
+  /* Initial background size */
+  background-position: 100% 0;
+  /* Initial background position (to the right) */
+}
+.global-styles-ui button.reset-button:hover,
+.global-styles-ui button.resend-button:hover {
+  background-position: 0 0;
+  /* Change background position on hover (to the left) */
+}
+.global-styles-ui button.reset-button:focus,
+.global-styles-ui button.resend-button:focus {
+  outline: none;
+  /* Remove the default focus outline */
+}
+.global-styles-ui .fp-login-button,
+.global-styles-ui .fp-signup-button,
+.global-styles-ui .fp-contact-button,
+.global-styles-ui .fp-service-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.global-styles-ui .fp-login-button:hover,
+.global-styles-ui .fp-signup-button:hover,
+.global-styles-ui .fp-contact-button:hover,
+.global-styles-ui .fp-service-button:hover {
+  background-color: #fff;
+  color: #333;
+  transform: translateY(-2px);
+}
+.global-styles-ui .header-buttons,
+.global-styles-ui .footer-buttons {
+  display: flex;
+  /* gap: 10px; */
+}
+.global-styles-ui .login-container {
+  /* width: 40%; */
+  margin: auto;
+  padding: 20px;
+}
+.global-styles-ui .remember-me {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.global-styles-ui .remember-me label {
+  margin-left: 10px;
+}
+.global-styles-ui .forgot-password {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.global-styles-ui button.success-signin-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.global-styles-ui button.success-signin-button:hover {
+  background-color: #0056b3;
+}
+.global-styles-ui .llogin-button,
+.global-styles-ui .lsignup-button,
+.global-styles-ui .lcontact-button,
+.global-styles-ui .lservice-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.global-styles-ui .loginpage-head header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  /* Add padding to the header */
+}
+.global-styles-ui .loginpage-head h1 {
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+.global-styles-ui .loginpage-header-buttons {
+  display: flex;
+  gap: 10px;
+  /* Spacing between buttons */
+}
+.global-styles-ui .llogin-button:hover,
+.global-styles-ui .lsignup-button:hover,
+.global-styles-ui .lcontact-button:hover,
+.global-styles-ui .lservice-button:hover {
+  background-color: #fff;
+  color: #333;
+  transform: translateY(-2px);
+}
+.global-styles-ui .loginpage-header-buttons,
+.global-styles-ui .loginpage-footer-buttons {
+  display: flex;
+  gap: 10px;
+}
+.global-styles-ui .home-container {
+  border-radius: 15px;
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 4px 2px -2px gray;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.634);
+}
+.global-styles-ui .reversed {
+  flex-direction: row-reverse;
+}
+.global-styles-ui .triple-images {
+  justify-content: space-around;
+}
+.global-styles-ui .home-image-container {
+  width: 50%;
+  text-align: center;
+  border-radius: 15px;
+}
+.global-styles-ui .home-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #888888;
+}
+.global-styles-ui .home-text-container {
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.global-styles-ui .aboutus-right-text h3 {
+  align-items: center;
+  text-align: center;
+  font-family: "Lexend Deca";
+}
+@media (min-width: 320px) {
+  .global-styles-ui .homepage_container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .global-styles-ui .home-text-container {
+    display: flex;
+    width: 90vw;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.global-styles-ui #info select {
+  /* text-align: center; */
+  border-radius: 8px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Lexend Deca";
+  width: -webkit-fill-available;
+}
+.global-styles-ui .ser-service-description {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  /* Added transition for hover effect */
+}
+.global-styles-ui .ser-service-description:hover {
+  transform: translateY(-5px);
+  /* Move the section up slightly on hover */
+  background-color: #b8d0d1;
+}
+.global-styles-ui .ser-login-container h2,
+.global-styles-ui .ser-login-container h3,
+.global-styles-ui .ser-login-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Monotype Corsiva", cursive;
+}
+.global-styles-ui .ser-login-container p {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.global-styles-ui .ser-login-container input[type="text"],
+.global-styles-ui .ser-login-container input[type="password"] {
+  display: block;
+  width: 90%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.global-styles-ui .ser-login-container input[type="text"]:hover,
+.global-styles-ui .ser-login-container input[type="password"]:hover {
+  border-color: #007bff;
+}
+.global-styles-ui .ser-remember-me {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.global-styles-ui .ser-remember-me label {
+  margin-left: 10px;
+}
+.global-styles-ui .ser-forgot-password {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.global-styles-ui .ser-service-description {
+  background-color: rgba(255, 255, 255, 0.641);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.global-styles-ui .ser-service-description:hover {
+  transform: translateY(-5px);
+  background-color: #b8d0d1;
+}
+.global-styles-ui .ser-contact {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.global-styles-ui .contact-info {
+  white-space: nowrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  /* Added transition for hover effect */
+}
+.global-styles-ui .contact-form {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+.global-styles-ui .contact-info:hover {
+  transform: translateY(-5px);
+  /* Move the section up slightly on hover */
+  background-color: #eff1f1;
+  /* filter: blur(3px);  Add a blur effect to the section on hover */
+}
+.global-styles-ui .contact-info h2 {
+  margin-top: 0;
+  font-family: "Monotype Corsiva", cursive;
+}
+.global-styles-ui .contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+.global-styles-ui .contact-info ul li {
+  margin-bottom: 10px;
+}
+.global-styles-ui .contact-form textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+}
+.global-styles-ui .signup-container {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+.global-styles-ui .filldetails {
+  width: 30vw !important;
+  font-family: "Lexend Deca" !important;
+}
+.global-styles-ui .account-info-signup {
+  display: flex;
+  align-items: center;
+}
+.global-styles-ui .account-info-signup a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.global-styles-ui .account-info-signup a:hover {
+  color: #0056b3;
+}
+.global-styles-ui .signup1-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+@media (max-width: 319px) {
+  .global-styles-ui .signup-container {
+    width: 95%;
+  }
+  .global-styles-ui .filldetails {
+    width: 90vw !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .global-styles-ui .signup-container {
+    width: 95%;
+  }
+  .global-styles-ui .filldetails {
+    width: 30vw !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .global-styles-ui .signup-container {
+    width: 95%;
+  }
+  .global-styles-ui .filldetails {
+    width: 75vw !important;
+  }
+  .global-styles-ui .for_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 911px) {
+  .global-styles-ui .signup-container {
+    width: 70%;
+  }
+  .global-styles-ui .filldetails {
+    width: 50vw !important;
+  }
+}
+@media (min-width: 912px) and (max-width: 1023px) {
+  .global-styles-ui .signup-container {
+    width: 60%;
+  }
+  .global-styles-ui .filldetails {
+    width: 30vw !important;
+  }
+}
+.global-styles-ui .signselect {
+  width: auto !important;
+}
+@media (min-width: 1024px) {
+  .global-styles-ui .signup-container {
+    width: auto;
+  }
+}
+.global-styles-ui .aboutus-aboutus-container {
+  display: flex;
+  flex-flow: column;
+}
+.global-styles-ui .aboutus-aboutus-container h1 {
+  font-family: "Lexend Deca";
+}
+.global-styles-ui .aboutus-main-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .global-styles-ui .aboutus-sub-container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .global-styles-ui .aboutus-sub-container {
+    flex-direction: row;
+  }
+}
+.global-styles-ui .aboutus-sub-container:hover,
+.global-styles-ui .aboutus-bottom_para:hover,
+.global-styles-ui .aboutus-mid-text-container:hover {
+  background-color: #eff1f1;
+}
+.global-styles-ui .aboutus-sub-container {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ccc;
+}
+.global-styles-ui .aboutus-bottom_para {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ccc;
+}
+.global-styles-ui .aboutus-left-text {
+  flex-direction: row-reverse;
+}
+.global-styles-ui .aboutus-main-container .aboutus-sub-container {
+  background-color: rgba(255, 255, 255, 0.644);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.global-styles-ui .aboutus-left-image,
+.global-styles-ui .aboutus-right-image {
+  max-width: 350px;
+  max-height: 350px;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.global-styles-ui .aboutus-right-text {
+  flex: 1;
+}
+.global-styles-ui .aboutus-gap-between-text-and-separate {
+  margin-top: 60px;
+}
+.global-styles-ui .aboutus-left-image-bottom {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ccc;
+  max-width: 20%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.global-styles-ui .contact-form-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+}
+@media (max-width: 767px) {
+  .global-styles-ui .aboutus-sub-container {
+    flex-direction: column !important;
+  }
+  .global-styles-ui .aboutus-left-image,
+  .global-styles-ui .aboutus-right-image {
+    width: 200px;
+    margin: 0px !important;
+  }
+  .global-styles-ui .contact-form-container {
+    /* display: flex; */
+    flex-direction: column;
+    height: 100%;
+  }
+  .global-styles-ui .home-container {
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%;
+        margin: 20px auto;
+        box-shadow: 0px 4px 2px -2px gray;
+        padding: 20px; */
+  }
+}
+@media (min-width: 1024px) {
+  .global-styles-ui .contact-form-container {
+    /* display: flex; */
+    flex-direction: column;
+    height: 100%;
+  }
+}
+.global-styles-ui .add-button,
+.global-styles-ui .delete-button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.global-styles-ui .delete-button {
+  background-color: #f44336;
+  /* Red */
+}
+.global-styles-ui .program-goals,
+.global-styles-ui .institution-goals,
+.global-styles-ui .department-vision {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e0e2e8;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.global-styles-ui .program-goals:hover,
+.global-styles-ui .institution-goals:hover,
+.global-styles-ui .department-vision:hover,
+.global-styles-ui .program-goals-container:hover {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e0e2e8;
+}
+.global-styles-ui .right-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+.global-styles-ui .PCgoals_container {
+  background-color: #ffffff83;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.global-styles-ui .program-goals-container {
+  background-color: #e0e2e8;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.global-styles-ui .program-goals-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.global-styles-ui .program-goals-container p {
+  text-align: left;
+  line-height: 1.5;
+}
+.global-styles-ui .program-goals-container ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+.global-styles-ui .collaboration-container:hover {
+  transform: translateY(-2px);
+}
+.global-styles-ui .pcgoals-main-container {
+  display: flex;
+}
+.global-styles-ui .PC_container-card-grid {
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns */
+  gap: 20px;
+  /* Add gap between cards */
+  max-height: 400px;
+  /* Set a maximum height for vertical scrolling */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  flex-wrap: wrap;
+  /* Allow cards to wrap within the grid */
+  padding-bottom: 10px;
+  /* Add some bottom padding for spacing */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+.global-styles-ui .card-enquiries {
+  background-color: rgba(255, 255, 255, 0.617);
+  padding: 20px;
+  width: calc(50% - 10px);
+  /* Limit each card to half of the grid container width */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* Add bottom margin for spacing between rows */
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+.global-styles-ui .student-info-enquiries {
+  margin-top: 10px;
+}
+.global-styles-ui .card-enquiries:hover {
+  transform: translateY(-5px);
+  background-color: #dbdec8;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 767px) {
+  .global-styles-ui .pcgoals-main-container {
+    flex-direction: column;
+  }
+}
+.global-styles-ui .colab-list-container {
+  background-color: #f0f0f0a0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.global-styles-ui .card-row-enquiries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.global-styles-ui .chat-icon {
+  position: fixed;
+  /* Fixed position */
+  bottom: 60px;
+  /* Above the footer */
+  right: 20px;
+  /* Right side of the page */
+  z-index: 1000;
+  /* Above other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+  border-radius: 50%;
+  /* Fully rounded to make it look like an icon */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+.global-styles-ui .login-button-container .my-button {
+  font-family: "Lexend Deca";
+  background-color: #007bff;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 5px;
+}
+.global-styles-ui .login-button-container .my-button:hover {
+  background-color: #1673d5;
+  transform: translateY(-2px);
+}
+.global-styles-ui .login-button-container .my-button:active {
+  background-color: #0153ab;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+.global-styles-ui .login-button-container .dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  z-index: 1;
+}
+.global-styles-ui .login-button-container .option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.global-styles-ui .login-button-container .option:hover {
+  background-color: #f0f0f0;
+}
+.fp-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+}
+.fp-form {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+.fp-heading {
+  font-size: 12px;
+  text-align: center;
+}
+.fp-form > label {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.fp-form > input {
+  padding: 12px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.register-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-image 0.3s, background-position 0.3s;
+  /* Added transition */
+  background-image: linear-gradient(90deg, #007bff, #0056b3);
+  /* Initial gradient background */
+  background-size: 200% 100%;
+  /* Initial background size */
+  background-position: 100% 0;
+  /* Initial background position (to the right) */
+}
+.reset-button {
+  display: block;
+  margin: 20px auto;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-image 0.3s, background-position 0.3s;
+  /* Added transition */
+  background-color: #007bff;
+  /* Initial gradient background */
+  background-size: 200% 100%;
+  /* Initial background size */
+  background-position: 100% 0;
+  /* Initial background position (to the right) */
+}
+/*# sourceMappingURL=global-styles.css.map */
